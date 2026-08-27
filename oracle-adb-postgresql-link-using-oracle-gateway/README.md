@@ -78,7 +78,7 @@ HS_LANGUAGE = AMERICAN_AMERICA.WE8ISO8859P9
 # Environment variables
 set ODBCINI=/etc/odbc.ini
 ```
-### 4.5 Konfigurasi `tnsnames.ora`
+### 4.4 Konfigurasi `tnsnames.ora`
 Meskipun database link utama dibuat di Autonomous Database, terkadang entri tnsnames.ora pada server Gateway diperlukan untuk keperluan pengujian lokal (seperti perintah tnsping atau koneksi uji menggunakan SQL*Plus dari server Gateway).
 Edit file $ORACLE_HOME/network/admin/tnsnames.ora di server Database Gateway dan tambahkan konfigurasi berikut:
 ```text
@@ -102,7 +102,7 @@ PGSQL_GW =
 
 ---
 
-### 4.6 Konfigurasi `listener.ora`
+### 4.5 Konfigurasi `listener.ora`
 Edit file `$ORACLE_HOME/network/admin/listener.ora` di server Gateway untuk mendengarkan permintaan *Heterogeneous*:
 ```text
 SID_LIST_LISTENER_GW =
