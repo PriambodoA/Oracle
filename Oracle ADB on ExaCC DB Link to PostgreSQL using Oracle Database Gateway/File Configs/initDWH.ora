@@ -1,0 +1,7 @@
+# initDWH.ora - DG4ODBC initialization file
+HS_FDS_CONNECT_INFO = DWH
+HS_FDS_TRACE_LEVEL = 0
+HS_FDS_SHAREABLE_NAME = /usr/lib64/psqlodbc.so
+HS_LANGUAGE = AMERICAN_AMERICA.WE8ISO8859P9
+# Environment variables
+set ODBCINI=/etc/odbc.ini

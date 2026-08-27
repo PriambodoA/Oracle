@@ -1,0 +1,8 @@
+DWH =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.119.36.50)(PORT = 1521))
+    (CONNECT_DATA =
+      (SID = DWH)
+    )
+    (HS = OK)
+  )

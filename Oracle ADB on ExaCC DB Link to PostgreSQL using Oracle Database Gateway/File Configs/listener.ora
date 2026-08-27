@@ -1,0 +1,15 @@
+LISTENER =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.119.36.50)(PORT = 1521))
+    )
+  )
+
+SID_LIST_LISTENER =
+  (SID_LIST =
+    (SID_DESC =
+      (SID_NAME = DWH)
+      (ORACLE_HOME = /u01/app/oracle/product/26ai/gateway)
+      (PROGRAM = dg4odbc)
+    )
+  )
